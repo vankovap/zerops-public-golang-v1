@@ -1,0 +1,6 @@
+use: [ go@1 ]
+run:
+  - go build -ldflags="-X main.Version=${ZEROPS_Name}" main.go
+deploy: [ main ]
+
+

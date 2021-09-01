@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	Version string
+	ServiceHostname string
 )
 
 func main() {
@@ -26,7 +26,7 @@ func main() {
 
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
 		log.Println("request accepted")
-		fmt.Fprint(writer, "Version "+Version)
+		fmt.Fprint(writer, "Zerops service hostname: "+ServiceHostname)
 	})
 
 	go func() {

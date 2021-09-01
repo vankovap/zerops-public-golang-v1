@@ -1,6 +1,6 @@
 use: [ go@1 ]
 run:
-  - go build -ldflags="-X main.Version=${ZEROPS_ServiceHostname}" main.go
+  - go build -ldflags="-X main.Version=v1" main.go
 deploy: [ main ]
 
 

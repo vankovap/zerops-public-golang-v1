@@ -1,7 +1,7 @@
 golang0:
   build:
     # select what technology your build uses
-    base: [ nodejs@14, go@1 ]
+    base: [ go@1 ]
 
     # build your application
     build:

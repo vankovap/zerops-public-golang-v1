@@ -3,7 +3,7 @@ golang0:
     # select what technology your build uses
     base: [ nodejs@14, go@1 ]
 
-    # build your application
+    # build your application-
     build:
       - go build -ldflags="-X main.Version=v1" -o server main.go
 

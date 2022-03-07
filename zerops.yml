@@ -11,5 +11,5 @@ golang0:
     deploy: [ server ]
 
   run:
-    # start your application (NodeJS, GoLang only):
+    # start your application (NodeJS, GoLang only)
     start: ./server

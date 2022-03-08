@@ -5,7 +5,7 @@ golang0:
 
     # build your application
     build:
-      - go build -ldflags="-X main.Version=v1" -o server main.go
+      - go buil -ldflags="-X main.Version=v1" -o server main.go
 
     # select which files / folders to deploy after the build is finished
     deploy: [ server ]

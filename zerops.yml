@@ -10,7 +10,7 @@ golang0:
     # select which files / folders to deploy after the build is finished
     deploy: [ server ]
 
-  run:
+  # run:
     # start your application (NodeJS, GoLang only)
     # start: ./server
     # comment

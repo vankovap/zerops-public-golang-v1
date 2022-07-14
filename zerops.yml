@@ -12,4 +12,4 @@ golang0:
 
   run:
     # start your application (NodeJS, GoLang only)
-    start: ./server
+    # start: ./server
